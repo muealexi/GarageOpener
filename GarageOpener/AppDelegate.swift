@@ -17,6 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         print("hello World")
+        BLE.sharedInstance.startCentralManager()
+
         return true
     }
 
