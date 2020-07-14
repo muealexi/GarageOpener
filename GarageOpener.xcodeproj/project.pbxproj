@@ -13,6 +13,7 @@
 		A737D7A724BE0336000B375D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A737D7A524BE0336000B375D /* Main.storyboard */; };
 		A737D7A924BE0338000B375D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A737D7A824BE0338000B375D /* Assets.xcassets */; };
 		A737D7AC24BE0338000B375D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A737D7AA24BE0338000B375D /* LaunchScreen.storyboard */; };
+		A737D7B524BE04ED000B375D /* BLE_Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = A737D7B424BE04ED000B375D /* BLE_Module.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A737D7A824BE0338000B375D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A737D7AB24BE0338000B375D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A737D7AD24BE0338000B375D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A737D7B424BE04ED000B375D /* BLE_Module.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BLE_Module.swift; path = ../../../Alexis/Bildung/Master/Master_Thesis/rehpeapp_v2_henrik_maurenbrecher/ForcePedalGuiv2/Resources/BLEHandler/BLE_Module.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				A737D79F24BE0336000B375D /* AppDelegate.swift */,
+				A737D7B324BE0473000B375D /* Bluetooth */,
 				A737D7A124BE0336000B375D /* SceneDelegate.swift */,
 				A737D7A324BE0336000B375D /* ViewController.swift */,
 				A737D7A524BE0336000B375D /* Main.storyboard */,
@@ -65,6 +68,14 @@
 				A737D7AD24BE0338000B375D /* Info.plist */,
 			);
 			path = GarageOpener;
+			sourceTree = "<group>";
+		};
+		A737D7B324BE0473000B375D /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				A737D7B424BE04ED000B375D /* BLE_Module.swift */,
+			);
+			path = Bluetooth;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +152,7 @@
 				A737D7A424BE0336000B375D /* ViewController.swift in Sources */,
 				A737D7A024BE0336000B375D /* AppDelegate.swift in Sources */,
 				A737D7A224BE0336000B375D /* SceneDelegate.swift in Sources */,
+				A737D7B524BE04ED000B375D /* BLE_Module.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
