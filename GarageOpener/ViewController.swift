@@ -15,6 +15,11 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func OpenSesame(_ sender: Any) {
+        let power:String = String(format:"Opening Gate",Int(1))
+        BLE.sharedInstance.writeErgolineValue(withValue: power)
+        print("Opening Gate")
+    }
+    
 }
 

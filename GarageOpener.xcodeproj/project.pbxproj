@@ -17,6 +17,10 @@
 		A737D7B824BE061D000B375D /* BLE_Identifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A737D7B624BE061D000B375D /* BLE_Identifiers.swift */; };
 		A737D7B924BE061D000B375D /* customNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = A737D7B724BE061D000B375D /* customNotifications.swift */; };
 		A737D7BB24BE062A000B375D /* OpenerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A737D7BA24BE0629000B375D /* OpenerData.swift */; };
+		A737D7BD24BE20FD000B375D /* Identifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A737D7BC24BE20FD000B375D /* Identifiers.swift */; };
+		A737D7BF24BE2111000B375D /* Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = A737D7BE24BE2111000B375D /* Module.swift */; };
+		A737D7C124BE2128000B375D /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = A737D7C024BE2128000B375D /* Notifications.swift */; };
+		A737D7C324BE213B000B375D /* OpenerStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = A737D7C224BE213B000B375D /* OpenerStruct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,10 @@
 		A737D7B624BE061D000B375D /* BLE_Identifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BLE_Identifiers.swift; path = ../../../Alexis/Bildung/Master/Master_Thesis/rehpeapp_v2_henrik_maurenbrecher/ForcePedalGuiv2/Resources/BLEHandler/BLE_Identifiers.swift; sourceTree = "<group>"; };
 		A737D7B724BE061D000B375D /* customNotifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = customNotifications.swift; path = ../../../Alexis/Bildung/Master/Master_Thesis/rehpeapp_v2_henrik_maurenbrecher/ForcePedalGuiv2/Resources/BLEHandler/customNotifications.swift; sourceTree = "<group>"; };
 		A737D7BA24BE0629000B375D /* OpenerData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OpenerData.swift; path = ../../../Alexis/Bildung/Master/Master_Thesis/rehpeapp_v2_henrik_maurenbrecher/ForcePedalGuiv2/Resources/BLEHandler/OpenerData.swift; sourceTree = "<group>"; };
+		A737D7BC24BE20FD000B375D /* Identifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Identifiers.swift; sourceTree = "<group>"; };
+		A737D7BE24BE2111000B375D /* Module.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Module.swift; sourceTree = "<group>"; };
+		A737D7C024BE2128000B375D /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		A737D7C224BE213B000B375D /* OpenerStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenerStruct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +88,13 @@
 			isa = PBXGroup;
 			children = (
 				A737D7B624BE061D000B375D /* BLE_Identifiers.swift */,
+				A737D7C024BE2128000B375D /* Notifications.swift */,
+				A737D7C224BE213B000B375D /* OpenerStruct.swift */,
 				A737D7BA24BE0629000B375D /* OpenerData.swift */,
 				A737D7B724BE061D000B375D /* customNotifications.swift */,
 				A737D7B424BE04ED000B375D /* BLE_Module.swift */,
+				A737D7BC24BE20FD000B375D /* Identifiers.swift */,
+				A737D7BE24BE2111000B375D /* Module.swift */,
 			);
 			path = Bluetooth;
 			sourceTree = "<group>";
@@ -158,8 +170,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A737D7C124BE2128000B375D /* Notifications.swift in Sources */,
+				A737D7C324BE213B000B375D /* OpenerStruct.swift in Sources */,
 				A737D7A424BE0336000B375D /* ViewController.swift in Sources */,
 				A737D7B924BE061D000B375D /* customNotifications.swift in Sources */,
+				A737D7BF24BE2111000B375D /* Module.swift in Sources */,
+				A737D7BD24BE20FD000B375D /* Identifiers.swift in Sources */,
 				A737D7A024BE0336000B375D /* AppDelegate.swift in Sources */,
 				A737D7A224BE0336000B375D /* SceneDelegate.swift in Sources */,
 				A737D7B824BE061D000B375D /* BLE_Identifiers.swift in Sources */,
