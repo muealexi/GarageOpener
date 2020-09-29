@@ -13,10 +13,6 @@
 		A737D7A724BE0336000B375D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A737D7A524BE0336000B375D /* Main.storyboard */; };
 		A737D7A924BE0338000B375D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A737D7A824BE0338000B375D /* Assets.xcassets */; };
 		A737D7AC24BE0338000B375D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A737D7AA24BE0338000B375D /* LaunchScreen.storyboard */; };
-		A737D7B524BE04ED000B375D /* BLE_Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = A737D7B424BE04ED000B375D /* BLE_Module.swift */; };
-		A737D7B824BE061D000B375D /* BLE_Identifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A737D7B624BE061D000B375D /* BLE_Identifiers.swift */; };
-		A737D7B924BE061D000B375D /* customNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = A737D7B724BE061D000B375D /* customNotifications.swift */; };
-		A737D7BB24BE062A000B375D /* OpenerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A737D7BA24BE0629000B375D /* OpenerData.swift */; };
 		A737D7BD24BE20FD000B375D /* Identifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A737D7BC24BE20FD000B375D /* Identifiers.swift */; };
 		A737D7BF24BE2111000B375D /* Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = A737D7BE24BE2111000B375D /* Module.swift */; };
 		A737D7C124BE2128000B375D /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = A737D7C024BE2128000B375D /* Notifications.swift */; };
@@ -32,10 +28,6 @@
 		A737D7A824BE0338000B375D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A737D7AB24BE0338000B375D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A737D7AD24BE0338000B375D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A737D7B424BE04ED000B375D /* BLE_Module.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BLE_Module.swift; path = ../../../Alexis/Bildung/Master/Master_Thesis/rehpeapp_v2_henrik_maurenbrecher/ForcePedalGuiv2/Resources/BLEHandler/BLE_Module.swift; sourceTree = "<group>"; };
-		A737D7B624BE061D000B375D /* BLE_Identifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BLE_Identifiers.swift; path = ../../../Alexis/Bildung/Master/Master_Thesis/rehpeapp_v2_henrik_maurenbrecher/ForcePedalGuiv2/Resources/BLEHandler/BLE_Identifiers.swift; sourceTree = "<group>"; };
-		A737D7B724BE061D000B375D /* customNotifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = customNotifications.swift; path = ../../../Alexis/Bildung/Master/Master_Thesis/rehpeapp_v2_henrik_maurenbrecher/ForcePedalGuiv2/Resources/BLEHandler/customNotifications.swift; sourceTree = "<group>"; };
-		A737D7BA24BE0629000B375D /* OpenerData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OpenerData.swift; path = ../../../Alexis/Bildung/Master/Master_Thesis/rehpeapp_v2_henrik_maurenbrecher/ForcePedalGuiv2/Resources/BLEHandler/OpenerData.swift; sourceTree = "<group>"; };
 		A737D7BC24BE20FD000B375D /* Identifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Identifiers.swift; sourceTree = "<group>"; };
 		A737D7BE24BE2111000B375D /* Module.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Module.swift; sourceTree = "<group>"; };
 		A737D7C024BE2128000B375D /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
@@ -87,12 +79,8 @@
 		A737D7B324BE0473000B375D /* Bluetooth */ = {
 			isa = PBXGroup;
 			children = (
-				A737D7B624BE061D000B375D /* BLE_Identifiers.swift */,
 				A737D7C024BE2128000B375D /* Notifications.swift */,
 				A737D7C224BE213B000B375D /* OpenerStruct.swift */,
-				A737D7BA24BE0629000B375D /* OpenerData.swift */,
-				A737D7B724BE061D000B375D /* customNotifications.swift */,
-				A737D7B424BE04ED000B375D /* BLE_Module.swift */,
 				A737D7BC24BE20FD000B375D /* Identifiers.swift */,
 				A737D7BE24BE2111000B375D /* Module.swift */,
 			);
@@ -173,14 +161,10 @@
 				A737D7C124BE2128000B375D /* Notifications.swift in Sources */,
 				A737D7C324BE213B000B375D /* OpenerStruct.swift in Sources */,
 				A737D7A424BE0336000B375D /* ViewController.swift in Sources */,
-				A737D7B924BE061D000B375D /* customNotifications.swift in Sources */,
 				A737D7BF24BE2111000B375D /* Module.swift in Sources */,
 				A737D7BD24BE20FD000B375D /* Identifiers.swift in Sources */,
 				A737D7A024BE0336000B375D /* AppDelegate.swift in Sources */,
 				A737D7A224BE0336000B375D /* SceneDelegate.swift in Sources */,
-				A737D7B824BE061D000B375D /* BLE_Identifiers.swift in Sources */,
-				A737D7B524BE04ED000B375D /* BLE_Module.swift in Sources */,
-				A737D7BB24BE062A000B375D /* OpenerData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,13 +309,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = WSWMU42858;
+				DEVELOPMENT_TEAM = X9AZ4BB373;
 				INFOPLIST_FILE = GarageOpener/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.alexis.GarageOpener;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevin.GarageOpenerV1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -343,13 +328,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = WSWMU42858;
+				DEVELOPMENT_TEAM = X9AZ4BB373;
 				INFOPLIST_FILE = GarageOpener/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.alexis.GarageOpener;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevin.GarageOpenerV1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -205,7 +205,8 @@ extension BLE: CBPeripheralDelegate {
             if characteristic.uuid == myOpener.TxCharacteristicUUID {
                 self.openerData = self.ErgolineConversion(from: characteristic)
 //                print("ergoData: \(ergoData)")
-                ergoline_DataNotification()
+//                ergoline_DataNotification()
+                signalReceived_Notification()
             }
         
         }
@@ -292,24 +293,12 @@ extension BLE {
         NotificationCenter.default.post(name: Notification.Name(rawValue: "openerConnectivityUpdate"), object: self, userInfo: nil)
     }
     
-    fileprivate func styxLEFT_DataNotification() {
-        NotificationCenter.default.post(name: Notification.Name(rawValue: "styxLEFTForceMeasurementUpdated"), object: self, userInfo: nil)
-    }
-    
-    fileprivate func styxRIGHT_DataNotification() {
-        NotificationCenter.default.post(name: Notification.Name(rawValue: "styxRIGHTForceMeasurementUpdated"), object: self, userInfo: nil)
+    fileprivate func signalReceived_Notification() {
+        NotificationCenter.default.post(name: Notification.Name(rawValue: "signalReceivedUpdate"), object: self, userInfo: nil)
     }
     
     fileprivate func ergoline_DataNotification() {
         NotificationCenter.default.post(name: Notification.Name(rawValue: "ergolinePowerUpdated"), object: self, userInfo: nil)
-    }
-    
-    fileprivate func styxLEFT_BatteryNotification() {
-        NotificationCenter.default.post(name: Notification.Name(rawValue: "styxLEFT_BatteryUpdated"), object: self, userInfo: nil)
-    }
-    
-    fileprivate func styxRIGHT_BatteryNotification() {
-        NotificationCenter.default.post(name: Notification.Name(rawValue: "styxRIGHT_BatteryUpdated"), object: self, userInfo: nil)
     }
     
     // CONVERTS RECEIVED BATTERY VOLTAGE INTO PERCENTAGE
